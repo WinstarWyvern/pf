@@ -2,7 +2,9 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div>Education</div>
+    <div className="custom-bg container-fluid h-708">
+      <div>Education</div>
+    </div>
   )
 }
 

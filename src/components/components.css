@@ -1,6 +1,9 @@
 .custom-bg{
     background-image: url('../asset/image/Background2.jpg');
-    background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    background-position-x: right;
     height: 100%;
 }
 
