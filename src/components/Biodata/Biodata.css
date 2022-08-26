@@ -1,0 +1,8 @@
+.custom-bg {
+    background-image: url('https://imgur.com/a/7xiN2Y6');
+    background-repeat: repeat;
+}
+
+.h-full {
+    min-height: 100%;
+}

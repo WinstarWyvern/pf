@@ -1,0 +1,26 @@
+.custom-bg{
+    background-image: url('../asset/image/Background2.jpg');
+    background-size:cover;
+    height: 100%;
+}
+
+.h-720{
+    height: 720px;
+}
+
+.h-700 {
+    height: 700px;
+}
+
+.h-708 {
+    height: 708px;
+}
+
+.h-710 {
+    height: 710px;
+}
+
+.h-680{
+    height: 680px;
+}
+
