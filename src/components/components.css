@@ -1,5 +1,5 @@
-.custom-bg{
-    background-image: url('../asset/image/Background2.jpg');
+.custom-bg-1{
+    background-image: url('../asset/image/Background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y:bottom;
@@ -25,5 +25,64 @@
 
 .h-680{
     height: 680px;
+}
+
+.h-90{
+    height: 90%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.h-85 {
+    height: 85%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.transparent-bg-1{
+    background-color: rgb(155, 255, 6);
+    opacity: 0.7;
+}
+
+.custom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-black-10{
+    border: 10px solid black;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-black{
+    color:black;
+}
+
+.fs-13{
+    font-size: 13px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-20 {
+    font-size: 20px;
 }
 
