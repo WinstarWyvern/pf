@@ -1,6 +1,6 @@
 import React from 'react'
 import "../components.css"
-import { BsLine, BsGithub, BsTwitter, BsDiscord } from "react-icons/bs";
+import { BsLine, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 
 const Biodata = () => {
@@ -144,13 +144,13 @@ const Biodata = () => {
 
             <div class="row my-1">
               <div class="col-3">
-                Discord <BsDiscord />
+                LinkedIn <BsLinkedin />
               </div>
               <div class="col-1">
                 :
               </div>
               <div class="col-5">
-                Winsta#2924
+                Winston Adinata Kusumo
               </div>
             </div>
 
