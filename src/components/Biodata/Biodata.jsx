@@ -1,14 +1,15 @@
 import React from 'react'
 import "../components.css"
+import "./Biodata.css"
 import { BsLine, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 
 const Biodata = () => {
   return (
-    <div className="custom-bg-1 h-708 custom-container">
-      <div className='border-black-10 w-85 h-85 transparent-bg-1 text-bold text-black p-5 fs-20'>
+    <div className="biodata-bg custom-bg-config h-708 custom-container">
+      <div className='border-black-10 w-85 h-85 transparent-bg text-bold text-black p-5 fs-20 opacity-087'>
         <div class="d-flex w-100">
-          <div className='w-75'>
+          <div className='w-65'>
             <div class="row my-1">
 
               <div class="row">
@@ -108,7 +109,7 @@ const Biodata = () => {
 
             <div class="row my-1">
               <div class="col-3">
-                Line <BsLine/>
+                Line <BsLine />
               </div>
               <div class="col-1">
                 :
@@ -155,7 +156,8 @@ const Biodata = () => {
             </div>
 
           </div>
-          <div className='w-25'>image</div>
+          <div className='w-35 profile-bg'>
+          </div>
         </div>
       </div>
     </div>
