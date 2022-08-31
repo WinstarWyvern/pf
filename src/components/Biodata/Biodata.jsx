@@ -7,7 +7,7 @@ import { BsLine, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 const Biodata = () => {
   return (
     <div className="biodata-bg custom-bg-config h-708 custom-container">
-      <div className='border-black-10 w-85 h-85 transparent-bg text-bold text-black p-5 fs-20 opacity-087'>
+      <div className='border-black-10 w-85 h-85 biodata-container-bg text-bold text-black p-5 fs-20 opacity-087'>
         <div class="d-flex w-100">
           <div className='w-65'>
             <div class="row my-1">
