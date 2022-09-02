@@ -1,6 +1,7 @@
 import React from 'react'
 import "../components.css"
 import "./Biodata.css"
+import profilePicture from "../../asset/image/ProfilePicture.jpg"
 import { BsLine, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 
@@ -156,7 +157,8 @@ const Biodata = () => {
             </div>
 
           </div>
-          <div className='w-35 profile-bg'>
+          <div className='w-35'>
+            <img className="card-img-top" src={profilePicture} alt="eror" height={480} />
           </div>
         </div>
       </div>

@@ -7,8 +7,6 @@ import cLogo from '../../asset/image/c-logo.png'
 import javaLogo from '../../asset/image/java-logo.png'
 import reactLogo from '../../asset/image/react-logo.png'
 
-
-
 const Skills = () => {
   return (
     <div className="skills-bg custom-bg-config h-708 custom-container">

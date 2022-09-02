@@ -8,6 +8,7 @@ import PastWorks from "./components/PastWorks/PastWorks";
 import Biodata from "./components/Biodata/Biodata";
 import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
+import Experience from "./components/Experience/Experience"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 
@@ -73,6 +74,15 @@ root.render(
             <>
               <Navigation />
               <Education />
+            </>
+          }
+        />
+        <Route
+          path="/experience"
+          element={
+            <>
+              <Navigation />
+              <Experience />
             </>
           }
         />
