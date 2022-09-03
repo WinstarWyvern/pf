@@ -31,6 +31,30 @@
     height: 680px;
 }
 
+.h-10 {
+    height: 10%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.h-35 {
+    height: 35%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
 .h-90{
     height: 90%;
 }
@@ -107,6 +131,10 @@
 
 .border-red-10 {
     border: 10px solid red;
+}
+
+.border-green-10 {
+    border: 10px solid green;
 }
 
 .text-bold{
