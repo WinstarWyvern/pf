@@ -18,7 +18,8 @@ const Experience = () => {
             <div className="card border border-primary border-5">
               <img className="card-img-top" src={sokratesLogo} alt="error" height={200} />
               <div className="card-body text-center">
-                <h5 className="card-title">Associate Member (Part Time)</h5>
+                <h5 className="card-title">Associate Member</h5>
+                <h5 className='card-title'>(Part Time)</h5>
                 <p className="card-text">2022 - 2023</p>
               </div>
             </div>
