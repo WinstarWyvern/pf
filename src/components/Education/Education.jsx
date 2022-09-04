@@ -8,7 +8,7 @@ import binusLogo from "../../asset/image/binus-logo.png"
 
 const Education = () => {
   return (
-    <div className="education-bg custom-bg-config h-720 custom-container">
+    <div className="education-bg custom-bg-config h-1000 custom-container">
       <div className='border-black-10 w-75 h-85 education-container-bg text-bold text-black p-5 fs-20 opacity-087'>
           <div className="col-3 fs-25">
             Timeline
@@ -48,13 +48,24 @@ const Education = () => {
 
         </div>
 
-        <div className="col-3 fs-25 mb-3">
+        <div className="col-3 fs-25">
           Award
         </div>
 
-        <div class="w-30">
+        <div class="w-30 my-4">
           <ul className="list-group list-group-flush border border-danger border-5">
             <li className="list-group-item">- 6th place at OSK(2019)</li>
+          </ul>
+        </div>
+
+        <div className="col-3 fs-25">
+          Volunteering
+        </div>
+
+        <div class="w-40 my-4">
+          <ul className="list-group list-group-flush border border-danger border-5">
+            <li className="list-group-item">- Freshman Leader(2021)</li>
+            <li className="list-group-item">- Freshman Leader(2021 - 2022)</li>
           </ul>
         </div>
       </div>
