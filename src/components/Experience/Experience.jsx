@@ -3,7 +3,6 @@ import "./Experience.css"
 import "../components.css"
 import sokratesLogo from "../../asset/image/sokrates-logo.png"
 
-
 const Experience = () => {
   return (
     <div className="experience-bg custom-bg-config h-708 custom-container">
