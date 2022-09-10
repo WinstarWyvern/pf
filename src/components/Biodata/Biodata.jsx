@@ -4,7 +4,6 @@ import "./Biodata.css"
 import profilePicture from "../../asset/image/ProfilePicture.jpg"
 import { BsLine, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 
-
 const Biodata = () => {
   return (
     <div className="custom-bg-config h-708 custom-container border-red-10">
@@ -128,7 +127,7 @@ const Biodata = () => {
                 :
               </div>
               <div className="col-5">
-                @Winsta16
+                @winsta16
               </div>
             </div>
 
@@ -140,7 +139,7 @@ const Biodata = () => {
                 :
               </div>
               <div className="col-5">
-                MikazukiMizuki
+                <a href="https://github.com/WinstarWyvern" class="text-dark txt-decoration-none" target={'_blank'}>WinstarWyvern</a>
               </div>
             </div>
 
@@ -152,7 +151,7 @@ const Biodata = () => {
                 :
               </div>
               <div className="col-5">
-                Winston Adinata Kusumo
+                <a href="https://www.linkedin.com/in/winston-adinata-kusumo-044152177/" class="text-dark txt-decoration-none" target={'_blank'}>Winston Adinata Kusumo</a>
               </div>
             </div>
 

@@ -5,3 +5,7 @@
 .biodata-bg{
     background-image: url('../../asset/image/Background.jpg');
 }
+
+.txt-decoration-none{
+    text-decoration: none;
+}
