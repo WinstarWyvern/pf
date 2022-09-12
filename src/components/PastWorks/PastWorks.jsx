@@ -9,7 +9,7 @@ const PastWorks = () => {
         <div className="d-flex w-100 p-3 justify-content-center align-items-center flex-column">
           <div>
             <h1 className="my-3">1.
-              <a href="https://www.linkedin.com/in/winston-adinata-kusumo-044152177/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+              <a href="https://winstarwyvern.github.io/fam-diner/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
                 Fam Diner
               </a>
             </h1>
@@ -18,7 +18,7 @@ const PastWorks = () => {
 
           <div>
             <h1 className="my-3">2.
-              <a href="https://www.linkedin.com/in/winston-adinata-kusumo-044152177/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+              <a href="https://winstarwyvern.github.io/caroline-rentals/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
                 Caroline Rentals
               </a>
             </h1>
@@ -27,7 +27,7 @@ const PastWorks = () => {
 
           <div>
             <h1 className="my-3">3.
-              <a href="https://www.linkedin.com/in/winston-adinata-kusumo-044152177/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+              <a href="https://winstarwyvern.github.io/Doto2/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
                 Doto 2
               </a>
             </h1>
