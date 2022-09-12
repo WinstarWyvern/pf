@@ -6,7 +6,7 @@ import sokratesLogo from "../../asset/image/sokrates-logo.png"
 const Experience = () => {
   return (
     <div className="experience-bg custom-bg-config h-708 custom-container">
-      <div className='border-black-10 w-75 h-80 experience-container-bg text-bold text-black p-5 fs-20 opacity-087'>
+      <div className='border-pink-10 w-75 h-80 experience-container-bg text-bold text-black p-5 fs-20 opacity-087'>
         <div className="col-3 fs-25">
           Timeline
         </div>

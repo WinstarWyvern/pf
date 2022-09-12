@@ -153,6 +153,10 @@
     border: 10px solid green;
 }
 
+.border-pink-10 {
+    border: 10px solid pink;
+}
+
 .text-bold{
     font-weight: bold;
 }
