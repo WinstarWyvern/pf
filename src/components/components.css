@@ -11,6 +11,18 @@
     height: 100%;
 }
 
+.h-3000 {
+    height: 3000px;
+}
+
+.h-2500 {
+    height: 2500px;
+}
+
+.h-2000 {
+    height: 2000px;
+}
+
 .h-1000 {
     height: 1000px;
 }
@@ -153,12 +165,24 @@
     border: 10px solid green;
 }
 
+.border-pink-10 {
+    border: 10px solid pink;
+}
+
+.border-purple-10 {
+    border: 10px solid purple;
+}
+
 .text-bold{
     font-weight: bold;
 }
 
 .text-black{
     color:black;
+}
+
+.text-decoration-none {
+    text-decoration: none;
 }
 
 .fs-13{

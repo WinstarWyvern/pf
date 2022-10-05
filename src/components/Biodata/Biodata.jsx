@@ -139,7 +139,7 @@ const Biodata = () => {
                 :
               </div>
               <div className="col-5">
-                <a href="https://github.com/WinstarWyvern" class="text-dark txt-decoration-none" target={'_blank'} rel="noreferrer">WinstarWyvern</a>
+                <a href="https://github.com/WinstarWyvern" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">WinstarWyvern</a>
               </div>
             </div>
 
@@ -151,7 +151,7 @@ const Biodata = () => {
                 :
               </div>
               <div className="col-5">
-                <a href="https://www.linkedin.com/in/winston-adinata-kusumo-044152177/" class="text-dark txt-decoration-none" target={'_blank'} rel="noreferrer">Winston Adinata Kusumo</a>
+                <a href="https://www.linkedin.com/in/winston-adinata-kusumo-044152177/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">Winston Adinata Kusumo</a>
               </div>
             </div>
 
