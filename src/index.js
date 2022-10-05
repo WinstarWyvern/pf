@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Home from "./pages/Home/Home";
 import PastWorks from "./components/PastWorks/PastWorks";
 import Biodata from "./components/Biodata/Biodata";
 import Skills from "./components/Skills/Skills";
@@ -24,25 +22,6 @@ root.render(
       <Routes>
         <Route
           path="/"
-          exact
-          element={
-            <>
-              <Navigation />
-              <App />
-            </>
-          }
-        />
-        <Route
-          path="/home"
-          element={
-            <>
-              <Navigation />
-              <Home />
-            </>
-          }
-        />
-        <Route
-          path="/biodata"
           element={
             <>
               <Navigation />

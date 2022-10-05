@@ -1,5 +1,4 @@
 import './App.css';
-import Home from './pages/Home/Home';
 import Biodata from './components/Biodata/Biodata'
 
 function App() {
