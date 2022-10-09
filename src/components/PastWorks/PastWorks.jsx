@@ -40,7 +40,7 @@ const PastWorks = () => {
             <ul>
               <li>
                 <a href="https://padlet.com/winstonkusumo/1o0oliozrfehkr08" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  Travelling
+                  KeMana Saja
                 </a>
               </li>
             </ul>
@@ -60,13 +60,13 @@ const PastWorks = () => {
 
               <li>
                 <a href="https://www.figma.com/file/YQs2biDVOhBtuQfewdKobk/UTS-Mulmed?node-id=0%3A1" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  UTS Multimedia
+                  MedStore
                 </a>
               </li>
 
               <li>
                 <a href="https://www.figma.com/file/SXWOW6Z1CHdS88P90eZAMq/UI-UAS-MULMED?node-id=0%3A1" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  UAS Multimedia
+                  National Heroes of Indonesia Simulator
                 </a>
               </li>
 
@@ -78,7 +78,7 @@ const PastWorks = () => {
 
               <li>
                 <a href="https://www.figma.com/file/5fyNUfWCUp7j55H33jKjur/Project-HCI-LE-01?node-id=0%3A1" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  UAS Human & Computer Interaction
+                  Trash Collector
                 </a>
               </li>
 
