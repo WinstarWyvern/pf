@@ -9,6 +9,16 @@ const PastWorks = () => {
         <div className="d-flex w-100 p-3 flex-column">
 
           <div>
+            <h2>React</h2>
+
+            <ul>
+              <li>
+                <a href="https://github.com/WinstarWyvern/Hotelify" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Hotelify
+                </a>
+              </li> 
+            </ul>
+
 
             <h2>Static Website</h2>
 
