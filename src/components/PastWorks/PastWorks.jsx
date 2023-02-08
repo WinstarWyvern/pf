@@ -4,8 +4,8 @@ import "./PastWorks.css"
 
 const PastWorks = () => {
   return (
-    <div className="pastworks-bg custom-bg-config h-1000 custom-container">
-      <div className='border-purple-10 w-75 h-85 bg-white text-bold text-black p-5 fs-20 opacity-087'>
+    <div className="pastworks-bg custom-bg-config custom-container">
+      <div className='border-purple-10 w-75 h-85 bg-white text-bold text-black p-5 fs-20 opacity-087 my-3'>
         <div className="d-flex w-100 p-3 flex-column">
 
           <div>
@@ -92,6 +92,58 @@ const PastWorks = () => {
                 </a>
               </li>
 
+            </ul>
+
+          </div>
+
+          <div>
+
+            <h2>Laravel</h2>
+
+            <ul>
+              <li>
+                <a href="https://github.com/WinstarWyvern/UMDB" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  UMDB
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/Giant-Book-Supplier" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Giant Book Supplier
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/Barbatos-Shop" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Barbatos Shop
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <h2>Mobile Programming (Java)</h2>
+
+            <ul>
+              <li>
+                <a href="https://github.com/WinstarWyvern/CinemaCGP" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Cinema CGP
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/AnimeDB" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Anime DB
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/MyToDoList" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  MyToDoList
+                </a>
+              </li>
             </ul>
 
           </div>
