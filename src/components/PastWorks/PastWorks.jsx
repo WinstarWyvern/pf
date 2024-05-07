@@ -13,17 +13,6 @@ const PastWorks = () => {
 
             <ul>
               <li>
-                <a href="https://winstarwyvern.github.io/fam-diner/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                Fam Diner
-              </a>
-              </li>
-              <li>
-                <a href="https://winstarwyvern.github.io/caroline-rentals/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                Caroline Rentals
-              </a>
-              </li>
-
-              <li>
                 <a href="https://winstarwyvern.github.io/Doto2/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
                   Doto 2
                 </a>
@@ -44,6 +33,8 @@ const PastWorks = () => {
               <li>
                 <a href="https://github.com/WinstarWyvern/Barbatos-Shop" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
                   Barbatos Shop
+                </a>
+              </li>
             </ul>
 
           </div>
