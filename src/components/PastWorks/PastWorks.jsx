@@ -9,18 +9,7 @@ const PastWorks = () => {
         <div className="d-flex w-100 p-3 flex-column">
 
           <div>
-            <h2>React</h2>
-
-            <ul>
-              <li>
-                <a href="https://github.com/WinstarWyvern/Hotelify" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  Hotelify
-                </a>
-              </li> 
-            </ul>
-
-
-            <h2>Static Website</h2>
+            <h2>Personal Website Project</h2>
 
             <ul>
               <li>
@@ -33,12 +22,28 @@ const PastWorks = () => {
                 Caroline Rentals
               </a>
               </li>
+
               <li>
                 <a href="https://winstarwyvern.github.io/Doto2/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
                   Doto 2
                 </a>
               </li>
 
+              <li>
+                <a href="https://github.com/WinstarWyvern/UMDB" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  UMDB
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/Giant-Book-Supplier" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Giant Book Supplier
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/Barbatos-Shop" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Barbatos Shop
             </ul>
 
           </div>
@@ -59,7 +64,7 @@ const PastWorks = () => {
 
           <div>
 
-            <h2>UI/UX</h2>
+            <h2>UI/UX Project</h2>
 
             <ul>
               <li>
@@ -98,24 +103,12 @@ const PastWorks = () => {
 
           <div>
 
-            <h2>Laravel</h2>
+            <h2>Thesis Project</h2>
 
             <ul>
               <li>
-                <a href="https://github.com/WinstarWyvern/UMDB" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  UMDB
-                </a>
-              </li>
-
-              <li>
-                <a href="https://github.com/WinstarWyvern/Giant-Book-Supplier" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  Giant Book Supplier
-                </a>
-              </li>
-
-              <li>
-                <a href="https://github.com/WinstarWyvern/Barbatos-Shop" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  Barbatos Shop
+                <a href="/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Member Zone Feature
                 </a>
               </li>
             </ul>
@@ -124,24 +117,17 @@ const PastWorks = () => {
 
           <div>
 
-            <h2>Mobile Programming (Java)</h2>
+            <h2>Personal Mobile Android Project</h2>
 
             <ul>
               <li>
-                <a href="https://github.com/WinstarWyvern/CinemaCGP" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  Cinema CGP
-                </a>
-              </li>
-
-              <li>
                 <a href="https://github.com/WinstarWyvern/AnimeDB" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  Anime DB
+                  AnimeDB
                 </a>
               </li>
-
               <li>
-                <a href="https://github.com/WinstarWyvern/MyToDoList" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                  MyToDoList
+                <a href="https://github.com/WinstarWyvern/CinemaCGP" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  CinemaCGP
                 </a>
               </li>
             </ul>
