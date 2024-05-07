@@ -10,7 +10,7 @@ const PastWorks = () => {
 
           <div>
 
-            <h2>Static Website</h2>
+            <h2>Personal Static Website Project</h2>
 
             <ul>
               <li>
@@ -28,7 +28,6 @@ const PastWorks = () => {
                   Doto 2
                 </a>
               </li>
-
             </ul>
 
           </div>
@@ -49,7 +48,7 @@ const PastWorks = () => {
 
           <div>
 
-            <h2>UI/UX</h2>
+            <h2>UI/UX Project</h2>
 
             <ul>
               <li>
@@ -82,6 +81,39 @@ const PastWorks = () => {
                 </a>
               </li>
 
+            </ul>
+
+          </div>
+
+          <div>
+
+            <h2>Thesis Project</h2>
+
+            <ul>
+              <li>
+                <a href="/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Member Zone Feature
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <h2>Personal Mobile Android Project</h2>
+
+            <ul>
+              <li>
+                <a href="https://github.com/WinstarWyvern/AnimeDB" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  AnimeDB
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/WinstarWyvern/CinemaCGP" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  CinemaCGP
+                </a>
+              </li>
             </ul>
 
           </div>

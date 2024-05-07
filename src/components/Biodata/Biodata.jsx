@@ -2,7 +2,7 @@ import React from 'react'
 import "../components.css"
 import "./Biodata.css"
 import profilePicture from "../../asset/image/ProfilePicture.jpg"
-import { BsLine, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Biodata = () => {
   return (
@@ -32,18 +32,6 @@ const Biodata = () => {
               </div>
               <div className="col-5">
                 Winston Adinata Kusumo
-              </div>
-            </div>
-
-            <div className="row my-1">
-              <div className="col-3">
-                Nickname
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                Winston, Winsta
               </div>
             </div>
 
@@ -104,30 +92,6 @@ const Biodata = () => {
               </div>
               <div className="col-5">
                 &nbsp;
-              </div>
-            </div>
-
-            <div className="row my-1">
-              <div className="col-3">
-                Line <BsLine />
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                winston.ak
-              </div>
-            </div>
-
-            <div className="row my-1">
-              <div className="col-3">
-                Twitter <BsTwitter />
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                @winsta16
               </div>
             </div>
 
