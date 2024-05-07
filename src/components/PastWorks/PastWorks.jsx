@@ -4,28 +4,35 @@ import "./PastWorks.css"
 
 const PastWorks = () => {
   return (
-    <div className="pastworks-bg custom-bg-config h-1000 custom-container">
-      <div className='border-purple-10 w-75 h-85 bg-white text-bold text-black p-5 fs-20 opacity-087'>
+    <div className="pastworks-bg custom-bg-config custom-container">
+      <div className='border-purple-10 w-75 h-85 bg-white text-bold text-black p-5 fs-20 opacity-087 my-3'>
         <div className="d-flex w-100 p-3 flex-column">
 
           <div>
-
-            <h2>Personal Static Website Project</h2>
+            <h2>Personal Website Project</h2>
 
             <ul>
               <li>
-                <a href="https://winstarwyvern.github.io/fam-diner/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                Fam Diner
-              </a>
-              </li>
-              <li>
-                <a href="https://winstarwyvern.github.io/caroline-rentals/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
-                Caroline Rentals
-              </a>
-              </li>
-              <li>
                 <a href="https://winstarwyvern.github.io/Doto2/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
                   Doto 2
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/UMDB" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  UMDB
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/Giant-Book-Supplier" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Giant Book Supplier
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/WinstarWyvern/Barbatos-Shop" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">
+                  Barbatos Shop
                 </a>
               </li>
             </ul>
