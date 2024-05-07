@@ -40,8 +40,8 @@ const Education = () => {
             <div className="card border border-danger border-5">
               <img className="card-img-top m-auto" src={binusLogo} alt="error" height={200} />
               <div className="card-body text-center">
-                <h5 className="card-title">S1</h5>
-                <p className="card-text">2020 - Current</p>
+                <h5 className="card-title">S1 Teknik Informatika</h5>
+                <p className="card-text">2020 - 2024</p>
               </div>
             </div>
           </div>

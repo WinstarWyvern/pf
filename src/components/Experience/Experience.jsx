@@ -14,21 +14,21 @@ const Experience = () => {
 
         <div className="w-100 d-flex flex-wrap my-4">
 
-          <div className="w-25 h-25 mx-3">
+          <div className="w-25 h-50 mx-3">
             <div className="card border border-primary border-5">
               <img className="card-img-top" src={sokratesLogo} alt="error" height={200} />
               <div className="card-body text-center">
-                <h5 className="card-title">Associate Member (Part Time)</h5>
+                <h5 className="card-title">Associate Member (Fullstack)</h5>
                 <p className="card-text">2022 - 2023</p>
               </div>
             </div>
           </div>
 
-          <div className="w-25 h-25 mx-3">
+          <div className="w-25 h-50 mx-3">
             <div className="card border border-primary border-5">
               <img className="card-img-top" src={blibliLogo} alt="error" height={200} />
               <div className="card-body text-center">
-                <h5 className="card-title">Software Development Engineer Intern</h5>
+                <h5 className="card-title">Software Engineer Intern (Fullstack)</h5>
                 <p className="card-text">2023 - 2024</p>
               </div>
             </div>

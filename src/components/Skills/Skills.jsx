@@ -12,6 +12,7 @@ import figmaLogo from '../../asset/image/figma-logo.png'
 import springLogo from '../../asset/image/spring-logo.png'
 import vueLogo from '../../asset/image/vue-logo.png'
 import mongoDBLogo from '../../asset/image/mongodb-logo.png'
+import sassLogo from '../../asset/image/sass-logo.png'
 
 const Skills = () => {
   return (
@@ -60,6 +61,10 @@ const Skills = () => {
 
           <div className="mx-5 my-5">
             <img className="card-img-top" src={mongoDBLogo} alt="eror" width={150} height={150} />
+          </div>
+
+          <div className="mx-5 my-5">
+            <img className="card-img-top" src={sassLogo} alt="eror" width={150} height={150} />
           </div>
 
         </div>
