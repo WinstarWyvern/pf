@@ -3,5 +3,9 @@
 }
 
 .experience-bg {
-    background-image: url('../../asset/image/Background5.jpg');
+    background-image: url("../../asset/image/Background5.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
