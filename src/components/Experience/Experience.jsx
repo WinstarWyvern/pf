@@ -40,7 +40,7 @@ const Experience = () => {
               <img className="card-img-top" src={ambersofLogo} alt="error" height={200} />
               <div className="card-body text-center">
                 <h5 className="card-title">FrontEnd Developer (Contract)</h5>
-                <p className="card-text">2024 - 2025</p>
+                <p className="card-text">2024 - 2026</p>
               </div>
             </div>
           </div>

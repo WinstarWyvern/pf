@@ -204,6 +204,41 @@ const PastWorks = () => {
                   FCNZ (Fire Control New Zealand)
                 </span>
               </li>
+              <li>
+                <span
+                  class="text-dark text-decoration-none"
+                >
+                  <a
+                    href="https://fooma.ai/"
+                    class="text-dark text-decoration-none"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    Fooma
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span
+                  class="text-dark text-decoration-none"
+                >
+                  FIS
+                </span>
+              </li>
+              <li>
+                <span
+                  class="text-dark text-decoration-none"
+                >
+                  <a
+                    href="https://ambersof.com/en"
+                    class="text-dark text-decoration-none"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    Ambersof
+                  </a>
+                </span>
+              </li>
             </ul>
           </div>
         </div>
