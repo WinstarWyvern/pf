@@ -4,128 +4,83 @@ import "./Biodata.css"
 import profilePicture from "../../asset/image/ProfilePicture.jpg"
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
+const profileInfo = [
+  { label: "Full Name", value: "Winston Adinata Kusumo" },
+  { label: "Location", value: "Jakarta, Indonesia" }, // atau Tangerang, Indonesia
+  { label: "Languages", value: "Bahasa, English" },
+  { label: "Email", value: "winstonadinata@gmail.com" },
+  { label: "Phone", value: "+62 896-6235-8056" },
+];
+
+const contactInfo = [
+  {
+    label: "Github",
+    icon: <BsGithub />,
+    value: "WinstarWyvern",
+    href: "https://github.com/WinstarWyvern",
+  },
+  {
+    label: "LinkedIn",
+    icon: <BsLinkedin />,
+    value: "Winston Adinata Kusumo",
+    href: "https://www.linkedin.com/in/winston-adinata-kusumo-044152177/",
+  },
+]
+
 const Biodata = () => {
   return (
-    <div className="biodata-bg custom-bg-config h-708 custom-container border-red-10">
-      <div className='border-black-10 w-85 h-85 biodata-container-bg text-bold text-black p-5 fs-20 opacity-087'>
-        <div className="d-flex w-100">
-          <div className='w-65'>
-            <div className="row my-1">
+    <div className="biodata-bg custom-bg-config custom-container">
+      <div className="bio-container">
 
-              <div className="row">
-                <div className="col-3 fs-25">
-                  Profile
-                </div>
-                <div className="col-1">
-                  &nbsp;
-                </div>
-                <div className="col-5">
-                  &nbsp;
-                </div>
-              </div>
+        <div className="bio-content">
 
-              <div className="col-3">
-                Full Name
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                Winston Adinata Kusumo
+          <div className="bio-photo-wrap">
+            <img className="bio-photo" src={profilePicture} alt="Winston Adinata Kusumo" />
+          </div>
+
+          <div className="bio-info">
+
+            <div className="bio-block">
+              <h3>Profile</h3>
+              <div className="bio-rows">
+                {profileInfo.map((item, idx) => (
+                  <div className="bio-row" key={idx}>
+                    <span className="bio-label">{item.label}</span>
+                    <span className="bio-value">{item.value}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
-            <div className="row my-1">
-              <div className="col-3">
-                Date of Birth
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                November 13th 2001
-              </div>
-            </div>
-
-            <div className="row my-1">
-              <div className="col-3">
-                Gender
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                Male
-              </div>
-            </div>
-
-            <div className="row my-1">
-              <div className="col-3">
-                Email
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                winstonadinata@gmail.com
-              </div>
-            </div>
-
-            <div className="row my-1">
-              <div className="col-3">
-                Phone
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                +6289662358056
-              </div>
-            </div>
-
-            <div className="row mt-5">
-              <div className="col-3 fs-25">
-                Contact
-              </div>
-              <div className="col-1">
-                &nbsp;
-              </div>
-              <div className="col-5">
-                &nbsp;
-              </div>
-            </div>
-
-            <div className="row my-1">
-              <div className="col-3">
-                Github <BsGithub />
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                <a href="https://github.com/WinstarWyvern" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">WinstarWyvern</a>
-              </div>
-            </div>
-
-            <div className="row my-1">
-              <div className="col-3">
-                LinkedIn <BsLinkedin />
-              </div>
-              <div className="col-1">
-                :
-              </div>
-              <div className="col-5">
-                <a href="https://www.linkedin.com/in/winston-adinata-kusumo-044152177/" class="text-dark text-decoration-none" target={'_blank'} rel="noreferrer">Winston Adinata Kusumo</a>
+            <div className="bio-block">
+              <h3>Contact</h3>
+              <div className="bio-rows">
+                {contactInfo.map((item, idx) => (
+                  <div className="bio-row" key={idx}>
+                    <span className="bio-label">
+                      {item.label} <span className="bio-icon">{item.icon}</span>
+                    </span>
+                    <span className="bio-value">
+                      <a
+                        href={item.href}
+                        className="bio-link"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {item.value}
+                      </a>
+                    </span>
+                  </div>
+                ))}
               </div>
             </div>
 
           </div>
-          <div className='w-35'>
-            <img className="card-img-top" src={profilePicture} alt="eror" height={480} />
-          </div>
+
         </div>
+
       </div>
-    </div>
+    </div >
   )
 }
 

@@ -4,70 +4,75 @@ import "../components.css"
 import yakobusLogo from "../../asset/image/yakobus-logo.png"
 import binusLogo from "../../asset/image/binus-logo.png"
 
+const timeline = [
+  { logo: yakobusLogo, title: "SMP", period: "2014 - 2017" },
+  { logo: yakobusLogo, title: "SMA", period: "2017 - 2020" },
+  { logo: binusLogo, title: "S1 Teknik Informatika", period: "2020 - 2024" },
+]
 
+const awards = [
+  "6th place at OSK (2019)",
+]
+
+const volunteering = [
+  "Freshman Leader (2021)",
+  "Freshman Leader (2021 - 2022)",
+]
 
 const Education = () => {
   return (
-    <div className="education-bg custom-bg-config h-1000 custom-container">
-      <div className='border-black-10 w-75 h-85 education-container-bg text-bold text-black p-5 fs-20 opacity-087'>
-          <div className="col-3 fs-25">
-            Timeline
-          </div>
+    <div className="education-bg custom-bg-config custom-container">
+      <div className="education-container">
 
-        <div className="w-100 d-flex flex-wrap justify-content-evenly my-4">
+        <div className="education-header">
+          <h1>Education</h1>
+          <p>My academic background and journey so far.</p>
+        </div>
 
-          <div className="w-25 h-25 mx-3">
-            <div className="card border border-danger border-5">
-              <img className="card-img-top" src={yakobusLogo} alt="error" height={200}/>
-              <div className="card-body text-center">
-                <h5 className="card-title">SMP</h5>
-                <p className="card-text">2014 - 2017</p>
+        <div className="edu-timeline">
+          {timeline.map((item, index) => (
+            <div className="edu-timeline-item" key={index}>
+              <div className="edu-timeline-dot"></div>
+
+              <div className="edu-timeline-card">
+                <div className="edu-timeline-top">
+                  <img
+                    src={item.logo}
+                    alt={item.title}
+                    className="edu-school-logo"
+                  />
+                  <div>
+                    <h2>{item.title}</h2>
+                    <p className="edu-period">{item.period}</p>
+                  </div>
+                </div>
               </div>
             </div>
+          ))}
+        </div>
+
+        <div className="edu-side-grid">
+
+          <div className="edu-side-block">
+            <h3>Award</h3>
+            <ul className="edu-side-list">
+              {awards.map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
+            </ul>
           </div>
 
-          <div className="w-25 h-25 mx-3">
-            <div className="card border border-danger border-5">
-              <img className="card-img-top" src={yakobusLogo} alt="error" height={200} />
-              <div className="card-body text-center">
-                <h5 className="card-title">SMA</h5>
-                <p className="card-text">2017 - 2020</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-25 h-25 mx-3">
-            <div className="card border border-danger border-5">
-              <img className="card-img-top m-auto" src={binusLogo} alt="error" height={200} />
-              <div className="card-body text-center">
-                <h5 className="card-title">S1 Teknik Informatika</h5>
-                <p className="card-text">2020 - 2024</p>
-              </div>
-            </div>
+          <div className="edu-side-block">
+            <h3>Volunteering</h3>
+            <ul className="edu-side-list">
+              {volunteering.map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
+            </ul>
           </div>
 
         </div>
 
-        <div className="col-3 fs-25">
-          Award
-        </div>
-
-        <div class="w-30 my-4">
-          <ul className="list-group border border-danger border-5">
-            <li className="list-group-item">- 6th place at OSK(2019)</li>
-          </ul>
-        </div>
-
-        <div className="col-3 fs-25">
-          Volunteering
-        </div>
-
-        <div class="w-40 my-4">
-          <ul className="list-group border border-danger border-5">
-            <li className="list-group-item">- Freshman Leader(2021)</li>
-            <li className="list-group-item">- Freshman Leader(2021 - 2022)</li>
-          </ul>
-        </div>
       </div>
     </div>
   )
