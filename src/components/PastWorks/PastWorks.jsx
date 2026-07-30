@@ -20,7 +20,7 @@ const projectCategories = [
       {
         name: "FCNZ (Fire Control New Zealand)",
         private: true,
-        type: "Internal Website + Internal Mobile App",
+        type: "Internal Website & Mobile App",
       },
       {
         name: "Fooma",
