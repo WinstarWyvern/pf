@@ -1,249 +1,186 @@
 import React from "react";
 import "../components.css";
 import "./PastWorks.css";
+import { FiExternalLink, FiLock } from "react-icons/fi";
+
+const projectCategories = [
+  {
+    title: "Professional Projects",
+    projects: [
+      {
+        name: "NWL (Natural Way of Living)",
+        link: "https://lotusgarden.app/",
+        type: "Website",
+      },
+      {
+        name: "IFS (Integration Financial System) Telkomsel",
+        private: true,
+        type: "Internal Website",
+      },
+      {
+        name: "FCNZ (Fire Control New Zealand)",
+        private: true,
+        type: "Internal Website + Internal Mobile App",
+      },
+      {
+        name: "Fooma",
+        link: "https://fooma.ai/",
+        type: "Website",
+      },
+      {
+        name: "FIS",
+        private: true,
+        type: "Internal Website",
+      },
+      {
+        name: "Ambersof",
+        link: "https://ambersof.com/en",
+        type: "Internal Website",
+      },
+    ],
+  },
+  {
+    title: "Personal Website Projects",
+    projects: [
+      {
+        name: "Doto 2",
+        link: "https://winstarwyvern.github.io/Doto2/",
+        type: "Live Demo",
+      },
+      {
+        name: "UMDB",
+        link: "https://github.com/WinstarWyvern/UMDB",
+        type: "GitHub",
+      },
+      {
+        name: "Giant Book Supplier",
+        link: "https://github.com/WinstarWyvern/Giant-Book-Supplier",
+        type: "GitHub",
+      },
+      {
+        name: "Barbatos Shop",
+        link: "https://github.com/WinstarWyvern/Barbatos-Shop",
+        type: "GitHub",
+      },
+    ],
+  },
+  {
+    title: "Personal Mobile Projects",
+    projects: [
+      {
+        name: "AnimeDB",
+        link: "https://github.com/WinstarWyvern/AnimeDB",
+        type: "GitHub",
+      },
+      {
+        name: "CinemaCGP",
+        link: "https://github.com/WinstarWyvern/CinemaCGP",
+        type: "GitHub",
+      },
+      {
+        name: "Member Zone Feature",
+        private: true,
+        type: "Thesis",
+      },
+    ],
+  },
+  {
+    title: "Prototype Projects",
+    projects: [
+      {
+        name: "Hotelify",
+        link: "https://www.figma.com/file/0hK7yqCr6rnwkTFf47LdvV/Hotelify?node-id=750%3A617",
+        type: "Figma",
+      },
+      {
+        name: "MedStore",
+        link: "https://www.figma.com/file/YQs2biDVOhBtuQfewdKobk/UTS-Mulmed?node-id=0%3A1",
+        type: "Figma",
+      },
+      {
+        name: "National Heroes of Indonesia Simulator",
+        link: "https://www.figma.com/file/SXWOW6Z1CHdS88P90eZAMq/UI-UAS-MULMED?node-id=0%3A1",
+        type: "Figma",
+      },
+      {
+        name: "AR Map",
+        link: "https://www.figma.com/file/SXWOW6Z1CHdS88P90eZAMq/UI-UAS-MULMED?node-id=0%3A1",
+        type: "Figma",
+      },
+      {
+        name: "Trash Collector",
+        link: "https://www.figma.com/file/5fyNUfWCUp7j55H33jKjur/Project-HCI-LE-01?node-id=0%3A1",
+        type: "Figma",
+      },
+      {
+        name: "KeMana Saja",
+        link: "https://padlet.com/winstonkusumo/1o0oliozrfehkr08",
+        type: "UML",
+      },
+    ],
+  },
+];
 
 const PastWorks = () => {
   return (
-    <div className="pastworks-bg custom-bg-config custom-container">
-      <div className="border-purple-10 w-75 h-85 bg-white text-bold text-black p-5 fs-20 opacity-087 my-3">
-        <div className="d-flex w-100 p-3 flex-column">
-          <div>
-            <h2>Personal Website Project</h2>
+    <section className="pastworks-bg custom-bg-config custom-container">
+      <div className="pastworks-container">
 
-            <ul>
-              <li>
-                <a
-                  href="https://winstarwyvern.github.io/Doto2/"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer" F
-                >
-                  Doto 2
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://github.com/WinstarWyvern/UMDB"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  UMDB
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://github.com/WinstarWyvern/Giant-Book-Supplier"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  Giant Book Supplier
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://github.com/WinstarWyvern/Barbatos-Shop"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  Barbatos Shop
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h2>UML Project</h2>
-
-            <ul>
-              <li>
-                <a
-                  href="https://padlet.com/winstonkusumo/1o0oliozrfehkr08"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  KeMana Saja
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h2>UI/UX Project</h2>
-
-            <ul>
-              <li>
-                <a
-                  href="https://www.figma.com/file/0hK7yqCr6rnwkTFf47LdvV/Hotelify?node-id=750%3A617"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  Hotelify
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://www.figma.com/file/YQs2biDVOhBtuQfewdKobk/UTS-Mulmed?node-id=0%3A1"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  MedStore
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://www.figma.com/file/SXWOW6Z1CHdS88P90eZAMq/UI-UAS-MULMED?node-id=0%3A1"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  National Heroes of Indonesia Simulator
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://www.figma.com/file/SXWOW6Z1CHdS88P90eZAMq/UI-UAS-MULMED?node-id=0%3A1"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  AR Map
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://www.figma.com/file/5fyNUfWCUp7j55H33jKjur/Project-HCI-LE-01?node-id=0%3A1"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  Trash Collector
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h2>Thesis Project</h2>
-
-            <ul>
-              <li>
-                <span
-                  class="text-dark text-decoration-none"
-                >
-                  Member Zone Feature
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h2>Personal Mobile Android Project</h2>
-
-            <ul>
-              <li>
-                <a
-                  href="https://github.com/WinstarWyvern/AnimeDB"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  AnimeDB
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/WinstarWyvern/CinemaCGP"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  CinemaCGP
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h2>PT Amber Solusi Internasional</h2>
-
-            <ul>
-              <li>
-                <a
-                  href="https://lotusgarden.app/"
-                  class="text-dark text-decoration-none"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  NWL (Natural Way of Living)
-                </a>
-              </li>
-              <li>
-                <span
-                  class="text-dark text-decoration-none"
-                >
-                  IFS (Integration Financial System) Telkomsel
-                </span>
-              </li>
-              <li>
-                <span
-                  class="text-dark text-decoration-none"
-                >
-                  FCNZ (Fire Control New Zealand)
-                </span>
-              </li>
-              <li>
-                <span
-                  class="text-dark text-decoration-none"
-                >
-                  <a
-                    href="https://fooma.ai/"
-                    class="text-dark text-decoration-none"
-                    target={"_blank"}
-                    rel="noreferrer"
-                  >
-                    Fooma
-                  </a>
-                </span>
-              </li>
-              <li>
-                <span
-                  class="text-dark text-decoration-none"
-                >
-                  FIS
-                </span>
-              </li>
-              <li>
-                <span
-                  class="text-dark text-decoration-none"
-                >
-                  <a
-                    href="https://ambersof.com/en"
-                    class="text-dark text-decoration-none"
-                    target={"_blank"}
-                    rel="noreferrer"
-                  >
-                    Ambersof
-                  </a>
-                </span>
-              </li>
-            </ul>
-          </div>
+        <div className="section-header">
+          <h1>Projects</h1>
+          <p>
+            A collection of professional, academic, and personal
+            projects that showcase my experience in software
+            development.
+          </p>
         </div>
+
+        {projectCategories.map((category) => (
+          <div className="project-category" key={category.title}>
+
+            <h2>{category.title}</h2>
+
+            <div className="project-grid">
+
+              {category.projects.map((project) => (
+                <div
+                  className="project-card"
+                  key={project.name}
+                >
+                  <span className="project-badge">
+                    {project.type}
+                  </span>
+
+                  <h3>{project.name}</h3>
+
+                  <div className="project-footer">
+                    {project.private ? (
+                      <span className="private-project">
+                        <FiLock />
+                        Private Project
+                      </span>
+                    ) : (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="project-link"
+                      >
+                        View Project
+                        <FiExternalLink />
+                      </a>
+                    )}
+                  </div>
+                </div>
+              ))}
+
+            </div>
+
+          </div>
+        ))}
+
       </div>
-    </div>
+    </section>
   );
 };
 

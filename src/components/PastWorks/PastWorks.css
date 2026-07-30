@@ -1,7 +1,235 @@
-.pastworks-container-bg {
-    background-color: rgba(20, 20, 21, 0.836);
+.pastworks-bg {
+    background:
+        linear-gradient(rgba(10, 10, 10, .88),
+            rgba(10, 10, 10, .88)),
+        url("../../asset/image/Background6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.pastworks-bg {
-    background-image: url('../../asset/image/Background6.jpg');
+.pastworks-container {
+    width: min(1200px, 90%);
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+/* ===========================
+   Section Header
+=========================== */
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-header h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    letter-spacing: .5px;
+}
+
+.section-header p {
+    max-width: 700px;
+    margin: auto;
+    color: #b8b8b8;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* ===========================
+   Category
+=========================== */
+
+.project-category {
+    margin-bottom: 70px;
+}
+
+.project-category h2 {
+    color: #60A5FA;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 28px;
+    padding-left: 16px;
+    border-left: 5px solid #3B82F6;
+}
+
+/* ===========================
+   Grid
+=========================== */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 24px;
+}
+
+/* ===========================
+   Card
+=========================== */
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 220px;
+
+    padding: 24px;
+
+    background: rgba(22, 22, 22, .82);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 18px;
+
+    transition:
+        transform .35s ease,
+        border-color .35s ease,
+        box-shadow .35s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #3B82F6;
+
+    box-shadow:
+        0 18px 45px rgba(59, 130, 246, .22);
+}
+
+/* ===========================
+   Badge
+=========================== */
+
+.project-badge {
+    display: inline-block;
+    align-self: flex-start;
+
+    padding: 6px 14px;
+
+    border-radius: 999px;
+
+    background: rgba(59, 130, 246, .15);
+
+    color: #93C5FD;
+
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+
+    margin-bottom: 18px;
+}
+
+/* ===========================
+   Title
+=========================== */
+
+.project-card h3 {
+    color: white;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    line-height: 1.5;
+
+    margin-bottom: 24px;
+
+    flex: 1;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+.project-footer {
+    margin-top: auto;
+}
+
+/* ===========================
+   Link
+=========================== */
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #60A5FA;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: .25s ease;
+}
+
+.project-link:hover {
+    color: #3B82F6;
+    gap: 12px;
+}
+
+/* ===========================
+   Private Project
+=========================== */
+
+.private-project {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #9CA3AF;
+
+    font-weight: 500;
+}
+
+.project-link svg,
+.private-project svg {
+    font-size: .95rem;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:992px) {
+
+    .pastworks-container {
+        width: 92%;
+    }
+
+    .section-header h1 {
+        font-size: 2.4rem;
+    }
+
+    .project-category h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .pastworks-container {
+        padding: 60px 0;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-header h1 {
+        font-size: 2rem;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        min-height: auto;
+    }
+
 }
