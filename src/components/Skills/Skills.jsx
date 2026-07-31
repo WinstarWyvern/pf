@@ -23,6 +23,10 @@ import githubLogo from "../../asset/image/github-logo.png";
 import dartLogo from "../../asset/image/dart-logo.png";
 import postmanLogo from "../../asset/image/postman-logo.png";
 import postgresqlLogo from "../../asset/image/postgre-logo.png";
+import androidLogo from "../../asset/image/android-logo.png";
+import vscodeLogo from "../../asset/image/vscode-logo.png";
+import androidstudioLogo from "../../asset/image/androidstudio-logo.png";
+import golangLogo from "../../asset/image/go-logo.png";
 
 const skillCategories = [
   {
@@ -48,12 +52,16 @@ const skillCategories = [
     title: "Mobile Development",
     skills: [
       { name: "Flutter", logo: flutterLogo },
-      { name: "Dart", logo: dartLogo }
+      { name: "Dart", logo: dartLogo },
+      { name: "Android Native", logo: androidLogo }
     ],
   },
   {
     title: "Other Programming Language",
-    skills: [{ name: "C", logo: cLogo }],
+    skills: [
+      { name: "C", logo: cLogo },
+      { name: "Go", logo: golangLogo }
+    ],
   },
   {
     title: "Tools",
@@ -61,7 +69,9 @@ const skillCategories = [
       { name: "Figma", logo: figmaLogo },
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
-      { name: "Postman", logo: postmanLogo }
+      { name: "Postman", logo: postmanLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Android Studio", logo: androidstudioLogo }
     ],
   },
 ];
