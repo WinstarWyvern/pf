@@ -27,6 +27,7 @@ import androidLogo from "../../asset/image/android-logo.png";
 import vscodeLogo from "../../asset/image/vscode-logo.png";
 import androidstudioLogo from "../../asset/image/androidstudio-logo.png";
 import golangLogo from "../../asset/image/go-logo.png";
+import nodejsLogo from "../../asset/image/nodejs-logo.png";
 
 const skillCategories = [
   {
@@ -43,6 +44,7 @@ const skillCategories = [
       { name: "SASS", logo: sassLogo },
       { name: "Java", logo: javaLogo },
       { name: "Spring Boot", logo: springLogo },
+      { name: "Node.js", logo: nodejsLogo },
       { name: "SQL", logo: sqlLogo },
       { name: "MongoDB", logo: mongoDBLogo },
       { name: "PostgreSQL", logo: postgresqlLogo }
