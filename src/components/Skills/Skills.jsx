@@ -27,7 +27,7 @@ import androidLogo from "../../asset/image/android-logo.png";
 import vscodeLogo from "../../asset/image/vscode-logo.png";
 import androidstudioLogo from "../../asset/image/androidstudio-logo.png";
 import golangLogo from "../../asset/image/go-logo.png";
-import nodejsLogo from "../../asset/image/nodejs-logo.png";
+import nodejsLogo from "../../asset/image/node.js-logo.png";
 
 const skillCategories = [
   {
